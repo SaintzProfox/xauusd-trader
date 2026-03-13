@@ -1,0 +1,22 @@
+# XAUUSD Trading Bot – Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Web framework & server
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# Scheduling
+schedule==1.2.2
+
+# Market data
+yfinance==0.2.48
+pandas==2.2.2
+numpy==1.26.4
+requests==2.32.3
+
+# Environment
+python-dotenv==1.0.1
+
+# Optional (uncomment if using TA-Lib for advanced indicators)
+# TA-Lib==0.4.28
